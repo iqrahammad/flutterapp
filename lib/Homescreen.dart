@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                   'message': _messageController.text,
                   'timestamp': FieldValue.serverTimestamp(),
                 });
-                Navigator.pop(context);
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomePage(userId: 'uid')));
               }
             },
             child: Text("Send"),
@@ -74,7 +74,9 @@ class HomePage extends StatelessWidget {
                   title: Text(doc['name'], style: TextStyle(fontWeight: FontWeight.bold)),
                   subtitle: Text(doc['bio']),
                   trailing: ElevatedButton(
-                    onPressed: () => _sendMessage(doc.id, role, context),
+                    onPressed: () =>
+                        
+                        _sendMessage(doc.id, role, context),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.deepOrange,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),

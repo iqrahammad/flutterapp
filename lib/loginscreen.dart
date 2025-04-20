@@ -98,6 +98,7 @@ TextEditingController passwordcontroller = TextEditingController();
                       const SizedBox(height: 70,),
                       GestureDetector(
                         onTap: () {
+                          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomePage(userId: 'uid')));
                           Signin(emailcontroller.text,passwordcontroller.text,context);
                           emailcontroller.clear();
                           passwordcontroller.clear();
