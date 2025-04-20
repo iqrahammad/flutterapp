@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63571855478",
+    "project_id": "taraweehapp786",
+    "storage_bucket": "taraweehapp786.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63571855478:android:2b9c42810bab517addb757",
+        "android_client_info": {
+          "package_name": "com.example.lastpractice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_ACCqdtc1q_W-71w_A49Wdshz2TagR6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
